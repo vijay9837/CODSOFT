@@ -100,3 +100,13 @@ margin: 10px;
   color: black;
   background-color: rgb(3, 246, 161);
 }
+
+@media (max-width:480px){
+    .calculator {
+        width: 300px;
+        height: 400px;
+    }
+    #AC,.button{
+        font-size: 1rem;
+    }
+}
