@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+body{
+    background-color: rgb(23, 201, 228);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 201, 228);
+}
+.container > img{
+    width: 50%;
+    border-bottom: 4px solid white;
+}
+.container > h3{
+    padding: 20px 0px;
+    width: 85%;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.section2{
+    border:  2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black , inset 10px 10px 20px black;
+}
+.section2 h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 5px 5px 10px black;
+}
+.section2 .item{
+    padding: 20px 0px;
+}
+.section2 .item h2{
+    font-weight: 800;
+ color: rgb(14, 7, 0);
+ font-size: 2rem;
+}
+.section2 .item p{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.wikipedia {
+    font-size: 1.3rem;
+    padding: 20px 0px;
+}
