@@ -342,3 +342,121 @@ nav > .login-signup > button:nth-child(2) {
 .top-companies > button:active{
   background-color: rgb(194, 187, 187);
 }
+
+/* cntact section */
+
+.contact-section{
+  padding-top: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-section > .top-section {
+  padding: 40px;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://marketplace.canva.com/EAE6S6-pyBs/1/0/800w/canva-pink-aesthetic-zoom-virtual-background-c_10osZBGzk.jpg");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  position: relative;
+}
+.contact-section > .top-section > h1{
+  font-size: 3.1rem;
+  font-weight: 450;
+  letter-spacing: -2px;
+  width: 35%;
+}
+.contact-section > .top-section > p{
+  font-size: 1.1rem;
+  width: 30%;
+}
+.contact-section > .top-section > .input-section{
+  margin-top: 15px;
+  position: relative;
+  width: 30%;
+}
+.contact-section > .top-section > .input-section > input {
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 0.9rem;
+  outline: none;
+}
+.contact-section > .top-section > .input-section > button{
+  position: absolute;
+  right: 5px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  top: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.contact-section > .top-section > .input-section > button:active{
+  background-color: rgb(69, 66, 66);
+
+}
+.contact-section > .bottom-section {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-section > .bottom-section > .left-section{
+  width: 50%;
+}
+.contact-section > .bottom-section > .left-section > .logo h2{
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+.contact-section > .bottom-section > .left-section >  p{
+  padding: 20px 0px;
+  width: 30%;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.contact-section > .bottom-section > .left-section > .links{
+  display: flex;
+  gap: 15px;
+}
+.contact-section > .bottom-section > .left-section > .links a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.contact-section > .bottom-section > .right-section{
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.contact-section > .bottom-section > .right-section > .items{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-section > .bottom-section > .right-section > .items > h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contact-section > .bottom-section > .right-section > .items > ul > li{
+  padding: 20px 0px;
+  display: flex;
+  gap: 10px ;
+  flex-direction: column;
+}
+.contact-section > .bottom-section > .right-section > .items > ul > li >a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
